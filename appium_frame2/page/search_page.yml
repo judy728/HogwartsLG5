@@ -1,0 +1,14 @@
+search:
+  - action: send
+    locator: [xpath,"//*[@resource-id='com.xueqiu.android:id/search_input_text']"]
+    content: 阿里巴巴
+
+  - action: find_and_click
+    locator: [xpath,'//*[@text="阿里巴巴-SW"]']
+
+  - action: find_and_click
+    locator: [xpath,"//*[@resource-id='com.xueqiu.android:id/follow_btn']"]
+
+  - action: find_and_click
+    locator: [xpath,"//*[@resource-id='com.xueqiu.android:id/action_close']"]
+
